@@ -1,0 +1,298 @@
+/* Home */
+*{
+    margin: 5px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section .Home nav {
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+}
+section .Home .text a {
+    width: 70%;
+    font-size: 20px;
+    margin-left: 50px;
+    justify-content: center;
+    text-align: left;
+    /* position: absolute; */
+    /* top: 30px; */
+}
+section .Home nav .logo { 
+    font-size: 20px;
+    /* text-align: left; */
+    /* margin-left: 950px; */
+    position: absolute;
+    left: 962px;
+    top: 19px;
+}
+section .Home nav .logo:hover i {
+    color: #14046c;
+    cursor: pointer;
+    transition: 0.2s;
+}
+section .Home .content h1{
+    width: 50%;
+    margin-top: 130px;
+    font-size: 70px;
+    font-family: pyxidum quick;
+    padding-bottom: 0px;
+}
+section .Home .content p{
+    width:50% ;
+    text-align: justify;
+    line-height: 21px;
+    position: relative;
+    top: 50px;
+    margin-left: 30px;
+}
+section .Home .content img{
+width: 45%;
+height: 450px;
+display: flex;
+justify-content: left;
+position: absolute;
+right: 0;
+top:130px;
+box-shadow: 0 0 6px rgba(0, 0,0.5);
+}
+
+
+/*Product*/
+.product{
+    width: 100%;
+    margin-top: 300px;
+}
+.product h1{
+    width: 100%;
+    font-size:100px ;
+    font-family: pyxidum quick ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.product .product_type .product_content{
+    color: gray;
+}
+.product .product_types .product_content{
+    color: gray;
+}
+.product .product_typess .product_content{
+    color: gray;
+}
+.product .product_type{
+    width: 35%;
+    top: 70px;
+    position: relative;
+
+}
+.product .product_types{
+    width: 38%;
+    position: relative;
+    margin-left: 400px;
+    bottom: 297px;
+
+}
+.product .product_typess{
+     width: 37%;
+     position: absolute;
+     top:1030px;
+     margin-left: 850px;
+}
+.product .product_type .product_image i{
+    color: orange;
+}
+.product .product_types .product_image i{
+    color: orange;
+}
+.product .product_typess .product_image i{
+    color: orange;
+}
+
+/*About Us*/
+
+
+
+.About_Us{
+    width: 100%;
+    margin-top: 0px;
+}
+.About_Us h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:100px ;
+    font-family: pyxidum quick;
+    position: absolute;
+    top: 1550px;
+}
+
+
+/*review*/
+
+.review{
+    width: 100%;
+    margin-top: 150px;
+    height: 100px;
+
+}
+.review h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 100px;
+    font-family: pyxidum quick;
+}
+.review .review_content{
+    width: 45%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 0 0 4px rgba(0, 0,0.5);
+    position: absolute;
+}
+.review .review_content .review_heading{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+.review .review_content .review_heading p{
+    font-size: 20px;
+}
+.review .review_content .review_heading i{
+    color: orange;
+}
+.review .review_content .review_para p{
+    color: gray;
+}
+.review .review_contents{
+    width: 45%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 0 0 4px rgba(0, 0,0.5);
+    position: absolute;
+    right: 0px;
+    top: 2310px;
+}
+.review .review_contents .review_heading{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+.review .review_contents .review_heading p{
+    font-size: 20px;
+}
+.review .review_contents .review_heading i{
+    color: orange;
+}
+.review .review_contents .review_para p{
+    color: gray;
+}
+
+
+/*Services*/
+
+.service{
+    width: 100%;
+    margin-top: 450px;
+}
+
+.service h1 {
+    width: 100%;
+    font-size: 100px;
+    font-family: pyxidum quick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service .service_tag i{
+    font-size: 100px;
+    color: #14046c;
+    position: absolute;
+    right: 700px;
+    top: 3000px;
+}
+.service .service_tag p{
+    font-size: 20px;
+    position: absolute;
+    top: 3150px;
+    right: 700px;
+}
+.service .service_tags i{
+    font-size: 100px;
+    color: #14046c;
+    position: absolute;
+    right: 500px;
+    top: 3000px;
+}
+.service .service_tags p{
+    font-size: 20px;
+    position: absolute;
+    top: 3150px;
+    right: 467px;
+}
+.service .service_tagss i{
+    font-size: 100px;
+    color: #14046c;
+    position: absolute;
+    right: 300px;
+    top: 3000px;
+}
+.service .service_tagss p{
+    font-size: 20px;
+    position: absolute;
+    top: 3150px;
+    right: 267px;
+}
+
+
+/*contact*/
+
+.contact p b {
+    font-size: 50px;
+    position: absolute;
+    top: 3300px;
+}
+.contact .form_info img{
+    position: absolute;
+    top: 3400px;
+    z-index: -10px;
+}
+.contact .form_info .user {
+    width: 20%;
+    padding-top: 0px;
+    position: absolute;
+    top: 3430px; 
+    font-size: 25px;
+}
+.contact .form_info .users {
+    width: 20%;
+    padding-top: 0px;
+    position: absolute;
+    top: 3500px; 
+    font-size: 25px;
+}
+.contact .form_info .userss {
+    width: 20%;
+    padding-top: 0px;
+    position: absolute;
+    top: 3570px; 
+    font-size: 25px;
+}
+/*footer*/
+.container .float-end{
+    position: absolute;
+    top: 3700px;
+}
+.container .float-ends {
+    position: absolute;
+    top: 3700px;
+    right: 0px;
+}
+
+
